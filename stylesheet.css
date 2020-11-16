@@ -1,11 +1,34 @@
-body{
+body {
+    margin: auto;
+    margin-top: 25vh;
     display: flex;
     flex-flow: column nowrap;
     width: fit-content;
 }
-parent{
+
+parent {
     display: flex;
 }
-.btn{
+
+.btn {
     width: 100px;
+    height: 50px;
+    border: none;
+    border-style: none;
+
+}
+
+#blue{
+    background-color:  rgb(66,133,244);
+}
+#blue:hover{
+    background-color: white;
+}
+.btn:hover {
+    background-color: white;
+    cursor: pointer;
+}
+input{
+    text-align: end;
+    padding-right: 5%;
 }

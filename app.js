@@ -11,8 +11,7 @@ for (i = 0; i < 5; i++) {
         btn.className = 'btn';
         btn.innerHTML = element;
         if(element=='='){
-            console.log('blue');
-            btn.style.backgroundColor="rgb(66,133,244)";
+            btn.id='blue';
         }
         div.appendChild(btn);
         y++;
