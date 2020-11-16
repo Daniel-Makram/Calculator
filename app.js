@@ -19,6 +19,9 @@ for (i = 0; i < 5; i++) {
     }
 }
 
+function safeEval(str){
+    return Function('return '+str)()
+}
 // let current = 0;
 document.body.addEventListener('click', function (event) {
     let targ = event.target
@@ -32,7 +35,7 @@ document.body.addEventListener('click', function (event) {
             input.value = '';
         } else if (btn_value == '=') {
             console.log('pressed equal');
-            let result = eval(input.value);
+            let result = safeEval(input.value);
             input.value = result;
         }
         // else if(btn_value=='+'){
