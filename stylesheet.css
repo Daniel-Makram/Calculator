@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    width: fit-content;
+}
+parent{
+    display: flex;
+}
+.btn{
+    width: 100px;
+}
