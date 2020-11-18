@@ -22,15 +22,15 @@ To run this project, [Click here](https://daniel-makram.github.io/Calculator/)
 
 ## Comments
 ### What I did
-- [Field is an input, so you can type with keyboard]
-- [Plus sign left to input opens complex operators] 
-- [Limited number size for input]
-- [After equal next number will reset input, but operators won't]
+- Field is an input, so you can type with keyboard
+- Plus sign left to input opens complex operators
+- Limited number size for input
+- After equal next number will reset input, but operators won't
 ### What I could change/what doesn't work
-- [Factorial, ln, e, pi not operational]
-- [Css not polished at all]
-- [Complex operators don't work with normal operation following it( sin(a)-b doesn't work)]
-- [Keypress on Enter is not yet implemented]
+- Factorial, ln, e, pi not operational
+- Css not polished at all
+- Complex operators don't work with normal operation following it( sin(a)-b doesn't work)
+- Keypress on Enter is not yet implemented
 
 
 
