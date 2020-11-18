@@ -29,7 +29,7 @@ To run this project, [Click here](https://daniel-makram.github.io/Calculator/)
 ### What I could change/what doesn't work
 - Factorial, ln, e, pi not operational
 - Css not polished at all
-- Complex operators don't work with normal operation following it( sin(a)-b doesn't work)
+- Complex operators don't work with normal operations following them ( sin(a)-b doesn't work)
 - Keypress on Enter is not yet implemented
 
 
