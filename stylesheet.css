@@ -1,16 +1,22 @@
 body {
-    margin: auto;
+    display: flex;
+    margin: 25vw;
     margin-top: 25vh;
+
+}
+
+.main__container {
     display: flex;
     flex-flow: column nowrap;
     width: fit-content;
 }
 
-parent {
+.parent {
     display: flex;
 }
 
-.btn {
+.btn,
+.expand {
     width: 100px;
     height: 50px;
     border: none;
@@ -18,17 +24,38 @@ parent {
 
 }
 
-#blue{
-    background-color:  rgb(66,133,244);
+#blue {
+    background-color: rgb(66, 133, 244);
 }
-#blue:hover{
-    background-color: white;
-}
-.btn:hover {
+
+.btn:hover,
+.expand:hover,
+#blue:hover {
     background-color: white;
     cursor: pointer;
 }
-input{
+
+.input__parent {
+    display: flex;
+}
+
+input {
+    width: 100%;
     text-align: end;
     padding-right: 5%;
+}
+
+.complex__parent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.btn--complex {
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
 }
